@@ -13,6 +13,7 @@ class calendar_year
         for (int i = 1; i < 13; i++)
         {
             calendar_obj mon = new calendar_obj();
+            System.out.println (mo[i - 1]);
             c = mon.month (da, md, c, md[i - 1]);
         }
     } 

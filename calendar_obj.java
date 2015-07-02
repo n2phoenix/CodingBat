@@ -27,7 +27,7 @@ public class calendar_obj
                 x++;
                 if (x > m)
                 {
-                    c = j;
+                    c = j + 1;
                     break;
                 }
             }
@@ -45,6 +45,7 @@ public class calendar_obj
             System.out.println ();
         }
         System.out.println (c);
+        System.out.println ();
         return c;
     }
 }
