@@ -44,7 +44,6 @@ public class calendar_obj
             }
             System.out.println ();
         }
-        System.out.println (c);
         System.out.println ();
         return c;
     }
